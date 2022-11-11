@@ -25,21 +25,22 @@ body{
 }
 .bloco_perfil{
     background-color: lightseagreen;
-    width: 500px;
-    height: 460px;    
+    background-image: url(estampa_egg.png);
+    width: 400px;
+    height: 360px;    
     margin: 20px;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     border: 3px solid #1c446b;
-   
+    background-size: 490px;
  
 }
 
 
  .perfil_1{
    /* background-color: lavenderblush;*/
-    max-width: 500px;
-    height: 350px;
-    margin: 70px;
+    max-width: 450px;
+    height: 250px;
+    margin: 60px;
     
 
 }
@@ -54,11 +55,24 @@ body{
     
 }
 
+h1{
+    font-size: 80px;
+}
 h2{
-    margin: 10px;
+    margin: 20px;
 }
 p{
-    margin: 10px;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color:darkblue;
+}
+a:hover{
+    text-decoration: none;
+    color:#f34221;
 }
 @media(max-width:
 1000px) {
@@ -101,7 +115,7 @@ p{
 h2{
        
     position: relative;
-    left:90px;
+    left:50px;
     top:10px;
     border-radius:0
 }
@@ -109,7 +123,7 @@ p{
    
     position: relative;
     left:30px;
-    top:10px;
+    top:5px;
     border-radius:0
 }
 .centraliza{

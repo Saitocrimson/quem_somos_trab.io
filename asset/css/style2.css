@@ -1,0 +1,111 @@
+#contenier {
+    padding: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    max-width: 860px;
+}
+
+main {
+    max-width: 1000px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav {
+    display: flex;
+    background-image: url(../img/clound.png);
+    background-size: contain;
+    justify-content: space-around;
+    animation: mymove 5s linear infinite;
+}
+#nav-barr{
+    display:flex;
+    flex-direction: row;
+
+}
+#nav-barr li a{
+    margin: 10px;
+ 
+
+}
+@keyframes mymove {
+
+    0%,
+    100% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+#lancamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-bottom: 30px;
+}
+
+#lancamento h3 {
+    font-size: 30px;
+}
+
+#itens_lanc {
+    padding: 20px;
+}
+
+input[type=button] {
+    margin: 3px;
+    border: none;
+    background-color: transparent;
+}
+
+#US {
+    width: 60px;
+    height: 40px;
+    background-image: url("../img/USA.webp");
+    background-size: cover;
+    opacity: 1;
+}
+
+#EU {
+    width: 60px;
+    height: 40px;
+    background-image: url("../img/EUR.webp");
+    background-size: cover;
+    opacity: 1;
+}
+
+#BR {
+    width: 60px;
+    height: 40px;
+    background-image: url("../img/BRA.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+
+#info {
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
